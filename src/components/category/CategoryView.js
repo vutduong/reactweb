@@ -15,7 +15,7 @@ export default function CategoryView() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const categoryResponse = await fetch("http://localhost:5000/categories");
+        const categoryResponse = await fetch("https://reactweb-1.onrender.com/categories");
         const categoryData = await categoryResponse.json();
         const categoriesList = Array.isArray(categoryData) ? categoryData : categoryData.categories || [];
         setCategories(categoriesList);
@@ -28,7 +28,7 @@ export default function CategoryView() {
           return;
         }
 
-        const productResponse = await fetch("http://localhost:5000/products");
+        const productResponse = await fetch("https://reactweb-1.onrender.com/products");
         const productData = await productResponse.json();
         const productList = Array.isArray(productData) ? productData : productData.products || [];
 

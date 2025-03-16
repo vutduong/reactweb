@@ -11,7 +11,7 @@ const RecentlyWatched = () => {
       try {
         const fetchedProducts = await Promise.all(
           storedIds.map(async (id) => {
-            const response = await fetch(`http://localhost:5000/products/${id}`);
+            const response = await fetch(`https://reactweb-1.onrender.com/products/${id}`);
             return response.json();
           })
         );

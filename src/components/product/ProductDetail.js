@@ -36,7 +36,7 @@ function ProductDetail() {
     useEffect(() => {
         const fetchProductDetails = async () => {
           try {
-            const response = await fetch(`http://localhost:5000/products/${id}`);
+            const response = await fetch(`https://reactweb-1.onrender.com/products/${id}`);
             const data = await response.json();
 
             setProduct(data);

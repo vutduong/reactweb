@@ -8,7 +8,7 @@ function Header({ cart }) {
     const cartCount = useMemo(() => cart.reduce((total, item) => total + item.quantity, 0), [cart])
     
     useEffect(() => {
-        fetch("http://localhost:5000/categories")
+        fetch("https://reactweb-1.onrender.com/categories")
           .then((res) => res.json())
           .then((data) => setCategories(data))
           

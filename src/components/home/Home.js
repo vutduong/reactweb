@@ -17,7 +17,7 @@ function Home() {
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                const response = await axios.get("http://localhost:5000/categories");
+                const response = await axios.get("https://reactweb-1.onrender.com/categories");
                 // Limit to 5 categories
                 const limitedCategories = response.data.slice(0, 5);
                 setCategories(limitedCategories);
@@ -35,7 +35,7 @@ function Home() {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get("http://localhost:5000/products");
+                const response = await axios.get("https://reactweb-1.onrender.com/products");
                 setProducts(response.data);
             } catch (err) {
                 console.error("Error fetching products:", err);

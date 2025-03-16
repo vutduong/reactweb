@@ -16,7 +16,7 @@ function Cart() {
             // Fetch product details for cart items using ID
             const fetchedProducts = await Promise.all(
                 cart.map(async (item) => {
-                    const response = await fetch(`http://localhost:5000/products/${item.id}`);
+                    const response = await fetch(`https://reactweb-1.onrender.com/products/${item.id}`);
                     const product = await response.json();
                     return { ...product, quantity: item.quantity };
                 })
