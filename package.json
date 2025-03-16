@@ -14,10 +14,11 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
-    "start": "concurrently \"json-server --watch db.json --port $PORT --host 0.0.0.0\" \"serve -s build -l $PORT\"",
+    "start": "concurrently \"json-server --watch db.json --port 5000 --host 0.0.0.0\" \"serve -s build -l 10000\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server --watch db.json --port 5000 --host 0.0.0.0"
   },
   "eslintConfig": {
     "extends": [
