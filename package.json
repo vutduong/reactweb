@@ -14,7 +14,7 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
-    "start": "cconcurrently \"PORT=10000 react-scripts start\" \"json-server --watch db.json --port 10000 --host 0.0.0.0\"",
+    "start": "concurrently \"json-server --watch db.json --port $PORT --host 0.0.0.0\" \"serve -s build -l $PORT\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
