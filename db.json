@@ -1,0 +1,237 @@
+
+{
+    "products": [
+      {
+        "name": "Android Cell Phone 128GB Pro-Grade",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/333279/samsung-galaxy-a16-green-thumbnew-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "3",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "1"
+      },
+      {
+        "name": "14″ FHD Ultrabook (400 nits) with 10th Gen Intel i7-10510U Processor up to 4.90 GHz,",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/522/315590/samsung-galaxy-a9-plus-bac-thumb-600x600.jpg",
+          "https://websitedemos.net/electronic-store-04/wp-content/uploads/sites/1055/2022/03/electronic-store-product-image-17.jpg"
+        ],
+        "category": "1",
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "price": "10000000",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac massa eget urna tempor vehicula vel id nisi. Pellentesq",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac massa eget urna tempor vehicula vel id nisi. Pellentesque sed felis auctor, molestie lectus vitae, elementum orci. In et nunc consequat, semper.</p>\n\n<p>Nunc sed justo</p>\n\n<h3>Cras vehicula semper ex, et fermentum tortor varius eget interdum et malesuada fames ac ante tellus eget.</h3>\n\n<h3>Product&#39;s Features</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>\n\n<ul>\n\t<li>Nunc sed justo at nisi commodo varius</li>\n\t<li>Ut eu urna enim. Curabitur posuere fermentum</li>\n\t<li>Curabitur at orci nec urna aliquet porta</li>\n</ul>\n\n<p>Lorem ipsum dolor</p>\n\n<h3>Nam bibendum augue pharetra ultrices.</h3>\n\n<p>Ut eu urna enim. Curabitur posuere fermentum libero, pretium dignissim est lacinia nec. Aenean dapibus ante sed pharetra scelerisque.</p>\n",
+        "created_at": "2024-11-08T07:50:47.156Z",
+        "slug": "14-fhd-ultrabook-400-nits-with-10th-gen-intel-i7-10510u-processor-up-to-490-ghz",
+        "updated_at": "2024-11-12T08:26:32.896Z",
+        "id": "2"
+      },
+      {
+        "name": "Note 10 Pro 128GB 6GB RAM Factory Unlocked (GSM ONLY) International Model",
+        "image": [
+          "https://static.vecteezy.com/system/resources/previews/011/047/526/original/smartphone-and-mobile-phone-free-png.png"
+        ],
+        "category": "2",
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "price": "999",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac massa eget urna tempor vehicula vel id nisi. Pellentesq",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. SuspendisLorem ipsum dolor sit amet, consectetur adipiscing elit. SuspendisLorem ipsum dolor sit amet, consectetur adipiscing elit. SuspendisLorem ipsum dolor sit amet, consectetur adipiscing elit. SuspendisLorem ipsum dolor sit amet, consectetur adipiscing elit. SuspendisLorem ipsum dolor sit amet, consectetur adipiscing elit. SuspendisLorem ipsum dolor sit amet, consectetur adipiscing elit. SuspendisLorem ipsum dolor sit amet, consectetur adipiscing elit. SuspendisLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendis",
+        "created_at": "2024-11-08T08:58:10.619Z",
+        "slug": "note-10-pro-128gb-6gb-ram-factory-unlocked-gsm-only-international-model",
+        "updated_at": "2024-11-12T08:26:23.275Z",
+        "id": "3"
+      },
+      {
+        "id": "ace1",
+        "name": "test7",
+        "price": "1",
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac massa eget urna tempor vehicula vel id nisi. Pellentesq",
+        "content": "<p>aaaaaaaaaaaaaaaaa</p>\n",
+        "image": [
+          "https://websitedemos.net/electronic-store-04/wp-content/uploads/sites/1055/2022/03/electronic-store-product-image-17.jpg",
+          "https://websitedemos.net/electronic-store-04/wp-content/uploads/sites/1055/2022/03/electronic-store-product-image-17.jpg",
+          "https://websitedemos.net/electronic-store-04/wp-content/uploads/sites/1055/2022/03/electronic-store-product-image-17.jpg"
+        ],
+        "category": "1",
+        "created_at": "2025-01-08T01:51:15.146Z",
+        "updated_at": "2025-01-08T03:46:22.758Z"
+      }
+    ],
+    "categories": [
+    {
+      "id": "1",
+      "name": "Điện thoại",
+      "slug": "Điện thoại",
+      "image":"https://cdn.tgdd.vn/content/phonne-24x24.png"
+    },
+    {
+      "id": "2",
+      "name": "Laptop",
+      "slug": "Laptop",
+      "image":"https://cdn.tgdd.vn/content/laptop-24x24.png"
+    },
+    {
+      "id": "3",
+      "name": "Phụ kiện",
+      "slug": "Phụ kiện",
+      "image":"https://cdn.tgdd.vn/content/laptop-24x24.png"
+    },
+    {
+      "id": "4",
+      "name": "Smartwatch",
+      "slug": "Smartwatch",
+      "image":"https://cdn.tgdd.vn/content/smartwatch-24x24.png"
+    },
+    {
+      "id": "5",
+      "name": "Đồng hồ",
+      "slug": "Đồng hồ",
+      "image":"https://cdn.tgdd.vn/content/watch-24x24.png"
+    },
+    {
+      "id": "6",
+      "name": "Tablet",
+      "slug": "Tablet",
+      "image":"https://cdn.tgdd.vn/content/tablet-24x24.png"
+    },
+    {
+      "id": "7",
+      "name": "Máy cũ, thu cũ",
+      "slug": "Máy cũ, thu cũ",
+      "image":"https://cdn.tgdd.vn/content/may-cu-24x24.png"
+    },
+    {
+      "id": "8",
+      "name": "PC, máy in",
+      "slug": "PC, máy in",
+      "image":"https://cdn.tgdd.vn/content/PC-24x24.png"
+    },
+    {
+      "id": "9",
+      "name": "Sim, thẻ cào",
+      "slug": "Sim, thẻ cào",
+      "image":"https://cdn.tgdd.vn/content/sim-24x24.png"
+    },
+    {
+      "id": "10",
+      "name": "Dịch vụ tiện ích",
+      "slug": "Dịch vụ tiện ích",
+      "image":"https://cdn.tgdd.vn/content/tien-ich-24x24.png"
+    }
+  ]
+  }
