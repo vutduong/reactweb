@@ -38,7 +38,7 @@ function ProductCart({ product, updateQuantity, removeProduct }) {
 
       <div className="grid col-span-7 ms-2">
         <div className="grid grid-cols-7">
-          <a href="#" className="text-sm col-span-6">{product.name}</a>
+          <button href="#" className="text-sm col-span-6">{product.name}</button>
           <p className="text-red-500 text-sm col-span-1 justify-self-end">
             {product.price * quantity}đ
           </p>

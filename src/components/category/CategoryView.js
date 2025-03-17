@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import GlideCarousel from "../home/Glide";
 import ProductCard from "../product/ProductCard";
 import config from "../../config";
@@ -54,9 +54,9 @@ export default function CategoryView() {
         <nav className="flex py-3" aria-label="Breadcrumb">
           <ul className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
             <li className="inline-flex items-center">
-              <a href="/" className="inline-flex items-center text-sm font-medium text-black hover:text-blue-600">
+              <Link to={`/`} className="inline-flex items-center text-sm font-medium text-black hover:text-blue-600">
                 Home
-              </a>
+              </Link>
             </li>
             <li aria-current="page">
               <div className="flex items-center">

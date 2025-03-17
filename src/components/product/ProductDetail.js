@@ -80,12 +80,12 @@ function ProductDetail() {
             <nav className="flex py-3 " aria-label="Breadcrumb">
                 <ul className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                     <li className="inline-flex items-center">
-                        <a href="#" className="inline-flex items-center text-sm font-medium text-black hover:text-blue-600">
+                        <button className="inline-flex items-center text-sm font-medium text-black hover:text-blue-600">
                         <svg className="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                             <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
                         </svg>
                         Home
-                        </a>
+                        </button>
                     </li>
                     <li aria-current="page">
                         <div className="flex items-center">
@@ -122,11 +122,11 @@ function ProductDetail() {
                             <div className="grid grid-cols-2 gap-3 p-2">
                               <div className="col-span-1 py-2 inline-flex items-center">
                                 <img className="w-8" src="https://cdnv2.tgdd.vn/pim/cdn/images/202410/Exchange232102.png" />
-                                <p className="text-sm ml-2.5 pl-[5px]">Hư gì đổi nấy <span className="font-bold">12 tháng</span> tại 2961 siêu thị toàn quốc (miễn phí tháng đầu) <a href="#">Xem chi tiết</a></p>
+                                <p className="text-sm ml-2.5 pl-[5px]">Hư gì đổi nấy <span className="font-bold">12 tháng</span> tại 2961 siêu thị toàn quốc (miễn phí tháng đầu) <button>Xem chi tiết</button></p>
                               </div>
                               <div className="col-span-1 py-2 inline-flex items-center">
                                 <img className="w-8" src="https://cdnv2.tgdd.vn/pim/cdn/images/202410/icon%20bao%20hanh170837.png" />
-                                <p className="text-sm ml-2.5 pl-[5px]">Bảo hành <span className="font-bold">chính hãng điện thoại 1 năm</span> tại các trung tâm bảo hành hãng <a href="#">Xem địa chỉ bảo hành</a></p>
+                                <p className="text-sm ml-2.5 pl-[5px]">Bảo hành <span className="font-bold">chính hãng điện thoại 1 năm</span> tại các trung tâm bảo hành hãng <button>Xem địa chỉ bảo hành</button></p>
                               </div>
                             </div>
                           </div>
@@ -149,22 +149,22 @@ function ProductDetail() {
                             <button className="bg-white border rounded-lg px-4 py-2 focus:text-blue-500 ">1TB</button>
                         </div>
                         <div className="mt-3 flex flex-wrap gap-2">
-                            <a href="#" className="inline-flex items-center space-x-2 bg-white border rounded-full py-1 px-4 focus:text-blue-500">
+                            <button className="inline-flex items-center space-x-2 bg-white border rounded-full py-1 px-4 focus:text-blue-500">
                               <div className="w-4 h-4 rounded-full border border-[#eaecf0] bg-[#C4AB97]"></div>
                               <p>Titan Sa Mạc</p>
-                            </a>
-                            <a href="#" className="inline-flex items-center space-x-2 bg-white border rounded-full py-1 px-4 focus:text-blue-500">
+                            </button>
+                            <button className="inline-flex items-center space-x-2 bg-white border rounded-full py-1 px-4 focus:text-blue-500">
                               <div className="w-4 h-4 rounded-full border border-[#eaecf0] bg-[#F2F1EB]"></div>
                               <p> Titan trắng</p>
-                            </a>
-                            <a href="#" className="inline-flex items-center space-x-2 bg-white border rounded-full py-1 px-4 focus:text-blue-500">
+                            </button>
+                            <button className="inline-flex items-center space-x-2 bg-white border rounded-full py-1 px-4 focus:text-blue-500">
                               <div className="w-4 h-4 rounded-full border border-[#eaecf0] bg-[#3F4042]"></div>
                               <p> Titan đen</p>
-                            </a>
-                            <a href="#" className="inline-flex items-center space-x-2 bg-white border rounded-full py-1 px-4 focus:text-blue-500">
+                            </button>
+                            <button className="inline-flex items-center space-x-2 bg-white border rounded-full py-1 px-4 focus:text-blue-500">
                               <div className="w-4 h-4 rounded-full border border-[#eaecf0] bg-[#BAB4A9]"></div>
                               <p> Titan tự nhiên</p>
-                            </a>
+                            </button>
                             
                         </div>
                         <div className="rounded-t-lg mt-4 p-2 bg-[url('https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/scenario/olgr-dt-min.png')]">

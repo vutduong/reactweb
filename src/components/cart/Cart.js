@@ -113,7 +113,7 @@ function Cart() {
                                         className="px-4 pt-4 rounded-b-md bg-white">
                                         <div
                                             className="p-2 border rounded-lg border-dotted border-blue-500 bg-[#f0f0f0]">
-                                            <a href="#">
+                                            <button href="#">
                                                 <p
                                                     className="text-sm text-blue-500">
                                                     Vui lòng cung cấp thông tin
@@ -126,7 +126,7 @@ function Cart() {
                                                         2, Quận Bắc Từ Liêm, Hà
                                                         Nội</p>
                                                 </div>
-                                            </a>
+                                            </button>
                                         </div>
 
                                         {products && products.length > 0 ? (
@@ -188,13 +188,13 @@ function Cart() {
                                     <div>
                                         <div
                                             className="p-2 border rounded-lg border-dotted border-blue-500 bg-[#f0f0f0]">
-                                            <a href="#" className="flex items-center gap-1">
+                                            <button  className="flex items-center gap-1">
                                                 <div className="w-4 h-4 bg-no-repeat inline-block align-middle bg-[url('//cdn.tgdd.vn/mwgcart/v2/vue-pro/img/cart_common_sprite.f121af278046a05746c86c585.png')] bg-[length:602px_553px] bg-[-177px_-478px]"></div>
 
                                                 <p className="text-sm text-blue-500">
                                                     Vui lòng chọn siêu thị nhận hàng
                                                 </p>
-                                            </a>
+                                            </button>
 
                                         </div>
                                         {products && products.length > 0 ? (
@@ -212,7 +212,7 @@ function Cart() {
                                             </div>
                                             <div className="grid col-span-7 ms-2">
                                                 <div className="grid grid-cols-7">
-                                                    <a href="#"
+                                                    <button href="#"
                                                         className="text-sm col-span-6">Laptop
                                                         HP 240 G9 i5
                                                         1235U/8GB/512GB/Win11

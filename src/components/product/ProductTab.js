@@ -106,9 +106,9 @@ const DropdownItem = ({ label, value, link }) => (
   <div className="grid grid-cols-3 border-b border-gray-300 p-3">
     <div className="col-span-1">
       {link ? (
-        <a href="#" className="text-blue-500">
+        <button className="text-blue-500">
           {label}
-        </a>
+        </button>
       ) : (
         <p>{label}</p>
       )}

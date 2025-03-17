@@ -33,32 +33,32 @@ export default function Tabs() {
                 <div className="mt-3">
                     {activeTab === "news" && (
                         <div className="grid grid-cols-4 gap-3">
-                            <a href="#" className="news">
+                            <button  className="news">
                                 <img className="w-full rounded-lg mb-2" src="https://cdnv2.tgdd.vn/mwg-static/tgdd/News/Thumb/1574204/cach-dang-ky-goi-cuoc-tet5g-viettel-2638725355739797711.jpg" />
                                 <p className="text-sm text-black">Hướng dẫn cách đăng ký gói cước TET5G Viettel...</p>
-                            </a>
-                            <a href="#" className="news">
+                            </button>
+                            <button  className="news">
                                 <img className="w-full rounded-lg mb-2" src="https://cdnv2.tgdd.vn/mwg-static/common/News/Thumb/1574187/gsmarena-poco-x7-thumb638725526753958384.jpg" />
                                 <p className="text-sm text-black">Trên tay POCO X7: Ngoại hình bắt mắt...</p>
-                            </a>
+                            </button>
                         </div>
                     )}
 
                     {activeTab === "qa" && (
                         <div className="grid grid-cols-4 gap-3">
-                            <a href="#" className="qa">
+                            <button href="#" className="qa">
                                 <img className="w-full rounded-lg mb-2" src="https://cdn.tgdd.vn//Files/News/2023/09/20/tim-hieu-chi-tiet-ve-gps-bang-tan-kep-tren-dong-thumb-560x292.png" />
                                 <p className="text-sm text-black">GPS băng tần kép trên dòng smartphone mới...</p>
-                            </a>
-                            <a href="#" className="qa">
+                            </button>
+                            <button href="#" className="qa">
                                 <img className="w-full rounded-lg mb-2" src="https://cdn.tgdd.vn//Files/News/2024/03/19/samsung-galaxy-s25-ultra-khi-nao-ra-mat-gia-bao-thumb-560x292.jpg" />
                                 <p className="text-sm text-black">Samsung Galaxy S25 Ultra: Khi nào ra mắt?</p>
-                            </a>
+                            </button>
                         </div>
                     )}
                 </div>
                 <div className="grid items-center justify-center py-5">
-                    <a href="#"className="text-[#2f80ed]">See more</a>
+                    <button href="#"className="text-[#2f80ed]">See more</button>
                 </div>
             </div>
         </div>
