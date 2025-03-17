@@ -8,12 +8,12 @@ function ProductDetail() {
     const { slug } = useParams();
     const navigate = useNavigate();
     const [product, setProduct] = useState(null);
-    const [images, setImages] = useState([]);
+    const [ setImages] = useState([]);
     const [thumbnailImages, setThumbnailImages] = useState([]);
     const [productData, setProductData] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [quantity, setQuantity] = useState(1);
-    const [error, setError] = useState(null);
+    const [quantity] = useState(1);
+    const [ setError] = useState(null);
 
     const addToCart = () => {
         const cartItem = {
@@ -111,21 +111,21 @@ function ProductDetail() {
                         <div className="divide-y divide-gray-300">
                             <div className="grid grid-cols-2 gap-3 p-2">
                               <div className="col-span-1 py-2 inline-flex items-center">
-                                <img className="w-8" src="https://cdnv2.tgdd.vn/pim/cdn/images/202412/icon sp kem theo142836105202.png" />
+                                <img alt="" className="w-8" src="https://cdnv2.tgdd.vn/pim/cdn/images/202412/icon sp kem theo142836105202.png" />
                                 <p className="text-sm ml-2.5 pl-[5px]">Sản phẩm mới (Cần thanh toán trước khi mở hộp).</p>
                               </div>
                               <div className="col-span-1 py-2 inline-flex items-center">
-                                <img className="w-8" src="https://cdnv2.tgdd.vn/pim/cdn/images/202412/icon sp kem theo142836105202.png" />
+                                <img alt="" className="w-8" src="https://cdnv2.tgdd.vn/pim/cdn/images/202412/icon sp kem theo142836105202.png" />
                                 <p className="text-sm ml-2.5 pl-[5px]">Bộ sản phẩm gồm: Hộp, Sách hướng dẫn, Cáp, Cây lấy sim</p>
                               </div>
                             </div>
                             <div className="grid grid-cols-2 gap-3 p-2">
                               <div className="col-span-1 py-2 inline-flex items-center">
-                                <img className="w-8" src="https://cdnv2.tgdd.vn/pim/cdn/images/202410/Exchange232102.png" />
+                                <img alt="" className="w-8" src="https://cdnv2.tgdd.vn/pim/cdn/images/202410/Exchange232102.png" />
                                 <p className="text-sm ml-2.5 pl-[5px]">Hư gì đổi nấy <span className="font-bold">12 tháng</span> tại 2961 siêu thị toàn quốc (miễn phí tháng đầu) <button>Xem chi tiết</button></p>
                               </div>
                               <div className="col-span-1 py-2 inline-flex items-center">
-                                <img className="w-8" src="https://cdnv2.tgdd.vn/pim/cdn/images/202410/icon%20bao%20hanh170837.png" />
+                                <img alt="" className="w-8" src="https://cdnv2.tgdd.vn/pim/cdn/images/202410/icon%20bao%20hanh170837.png" />
                                 <p className="text-sm ml-2.5 pl-[5px]">Bảo hành <span className="font-bold">chính hãng điện thoại 1 năm</span> tại các trung tâm bảo hành hãng <button>Xem địa chỉ bảo hành</button></p>
                               </div>
                             </div>
@@ -142,7 +142,7 @@ function ProductDetail() {
 
                 <div className="col-span-2">
                     <div className="bg-white rounded-lg p-5">
-                        <img src="https://cdnv2.tgdd.vn/mwg-static/tgdd/Banner/5b/49/5b49321d55dde19cc5e7f87a34c1e11a.png" />
+                        <img alt="" src="https://cdnv2.tgdd.vn/mwg-static/tgdd/Banner/5b/49/5b49321d55dde19cc5e7f87a34c1e11a.png" />
                         <div className="mt-3">
                             <button className="bg-white border rounded-lg px-4 py-2 focus:text-blue-500 ">256GB</button>
                             <button className="bg-white border rounded-lg px-4 py-2 focus:text-blue-500 ">512GB</button>

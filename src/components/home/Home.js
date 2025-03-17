@@ -88,10 +88,10 @@ function Home() {
                         <RecentlyWatched />
                         <div className=" flex flex-row justify-between relative mb-5 mt-5">
                             <div className="flex items-center">
-                                <img className="w-10 h-10" src="https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/tet/tgdd/2025/am/icon-title01.png" />
+                                <img alt="" className="w-10 h-10" src="https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/tet/tgdd/2025/am/icon-title01.png" />
                                 <h3 className="text-2xl font-bold">Khuyến mãi Online</h3>
                             </div>
-                            <img className="w-72 absolute right-0 top-[-20px]" src="https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/tet/tgdd/2025/am/icon-bgmenu-dt.png" />
+                            <img alt="" className="w-72 absolute right-0 top-[-20px]" src="https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/tet/tgdd/2025/am/icon-bgmenu-dt.png" />
                         </div>
 
                         <div className="first-section-tab shadow-md bg-white rounded-lg">
@@ -193,7 +193,7 @@ function Home() {
                         <div className="third-section shadow-md mt-5">
                             <div className="third-section-tab bg-white rounded-lg pt-1">
                                 <div className="flex items-center gap-2 m-2">
-                                    <img className="w-10 h-10 " src="https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/tet/tgdd/2025/am/icon-title02.png" />
+                                    <img alt="" className="w-10 h-10 " src="https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/tet/tgdd/2025/am/icon-title02.png" />
                                     <h3 className="text-2xl font-bold">Gợi ý cho bạn</h3>
                                 </div>
                                 <div className="third-section-product px-7">
@@ -211,19 +211,19 @@ function Home() {
 
                         <div className="forth-section mt-5">
                             <div className="flex items-center m-2 gap-2">
-                                <img className="w-10 h-10" src="https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/tet/tgdd/2025/am/icon-title04.png" />
+                                <img alt="" className="w-10 h-10" src="https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/tet/tgdd/2025/am/icon-title04.png" />
                                 <h3 className="text-2xl font-bold">Gian hàng ưu đãi</h3>
                             </div>
                             <div className="grid grid-cols-4 gap-7">
                                 <Discount />
                                 <Link to="#">
-                                    <img className="rounded-lg" src="https://cdnv2.tgdd.vn/mwg-static/tgdd/Banner/57/c4/57c41ab8b773afaf7ed75ca00512c473.png" />
+                                    <img alt="" className="rounded-lg" src="https://cdnv2.tgdd.vn/mwg-static/tgdd/Banner/57/c4/57c41ab8b773afaf7ed75ca00512c473.png" />
                                 </Link>
                                 <Link to="#">
-                                    <img className="rounded-lg" src="https://cdnv2.tgdd.vn/mwg-static/tgdd/Banner/39/29/39296a6d0d1ff6f2be6099e41d88b18b.png" />
+                                    <img alt="" className="rounded-lg" src="https://cdnv2.tgdd.vn/mwg-static/tgdd/Banner/39/29/39296a6d0d1ff6f2be6099e41d88b18b.png" />
                                 </Link>
                                 <Link to="#">
-                                    <img className="rounded-lg" src="https://cdnv2.tgdd.vn/mwg-static/tgdd/Banner/79/00/7900765bcf302de807c9e11c2dd5d851.png" />
+                                    <img alt="" className="rounded-lg" src="https://cdnv2.tgdd.vn/mwg-static/tgdd/Banner/79/00/7900765bcf302de807c9e11c2dd5d851.png" />
                                 </Link>
                             </div>
                         </div>

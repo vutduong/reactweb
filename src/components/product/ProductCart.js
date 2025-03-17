@@ -33,7 +33,7 @@ function ProductCart({ product, updateQuantity, removeProduct }) {
   return (
     <div className="mt-5 grid grid-cols-8 border-b pb-3">
       <div className="grid col-span-1">
-        <img src={product.image?.[0] || "fallback-image.jpg"} className="w-full h-auto" />
+        <img alt="" src={product.image?.[0] || "fallback-image.jpg"} className="w-full h-auto" />
       </div>
 
       <div className="grid col-span-7 ms-2">

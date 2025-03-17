@@ -24,7 +24,7 @@ function Header({ cart }) {
                 <Link to="/">
                     <img className="w-64"
                         src="https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/tet/tgdd/2025/am/logo_desktop.png"
-                        />
+                        alt=""/>
                 </Link>
                 <form className="max-w-md ">
                     <label htmlFor="default-search"

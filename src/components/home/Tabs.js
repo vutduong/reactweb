@@ -7,7 +7,7 @@ export default function Tabs() {
         <div className="fifth-section mt-5">
             <div className="w-full mx-auto bg-white shadow-md rounded-lg mt-3 p-5">
                 <div className="flex items-center">
-                    <img className="w-10 h-10" src="https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/tet/tgdd/2025/am/icon-title05.png" />
+                    <img alt="" className="w-10 h-10" src="https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/tet/tgdd/2025/am/icon-title05.png" />
                     <h3 className="text-2xl font-bold">Bài tin</h3>
                 </div>
 
@@ -34,11 +34,11 @@ export default function Tabs() {
                     {activeTab === "news" && (
                         <div className="grid grid-cols-4 gap-3">
                             <button  className="news">
-                                <img className="w-full rounded-lg mb-2" src="https://cdnv2.tgdd.vn/mwg-static/tgdd/News/Thumb/1574204/cach-dang-ky-goi-cuoc-tet5g-viettel-2638725355739797711.jpg" />
+                                <img alt="" className="w-full rounded-lg mb-2" src="https://cdnv2.tgdd.vn/mwg-static/tgdd/News/Thumb/1574204/cach-dang-ky-goi-cuoc-tet5g-viettel-2638725355739797711.jpg" />
                                 <p className="text-sm text-black">Hướng dẫn cách đăng ký gói cước TET5G Viettel...</p>
                             </button>
                             <button  className="news">
-                                <img className="w-full rounded-lg mb-2" src="https://cdnv2.tgdd.vn/mwg-static/common/News/Thumb/1574187/gsmarena-poco-x7-thumb638725526753958384.jpg" />
+                                <img alt="" className="w-full rounded-lg mb-2" src="https://cdnv2.tgdd.vn/mwg-static/common/News/Thumb/1574187/gsmarena-poco-x7-thumb638725526753958384.jpg" />
                                 <p className="text-sm text-black">Trên tay POCO X7: Ngoại hình bắt mắt...</p>
                             </button>
                         </div>
@@ -46,19 +46,19 @@ export default function Tabs() {
 
                     {activeTab === "qa" && (
                         <div className="grid grid-cols-4 gap-3">
-                            <button href="#" className="qa">
-                                <img className="w-full rounded-lg mb-2" src="https://cdn.tgdd.vn//Files/News/2023/09/20/tim-hieu-chi-tiet-ve-gps-bang-tan-kep-tren-dong-thumb-560x292.png" />
+                            <button  className="qa">
+                                <img alt="" className="w-full rounded-lg mb-2" src="https://cdn.tgdd.vn//Files/News/2023/09/20/tim-hieu-chi-tiet-ve-gps-bang-tan-kep-tren-dong-thumb-560x292.png" />
                                 <p className="text-sm text-black">GPS băng tần kép trên dòng smartphone mới...</p>
                             </button>
-                            <button href="#" className="qa">
-                                <img className="w-full rounded-lg mb-2" src="https://cdn.tgdd.vn//Files/News/2024/03/19/samsung-galaxy-s25-ultra-khi-nao-ra-mat-gia-bao-thumb-560x292.jpg" />
+                            <button className="qa">
+                                <img alt="" className="w-full rounded-lg mb-2" src="https://cdn.tgdd.vn//Files/News/2024/03/19/samsung-galaxy-s25-ultra-khi-nao-ra-mat-gia-bao-thumb-560x292.jpg" />
                                 <p className="text-sm text-black">Samsung Galaxy S25 Ultra: Khi nào ra mắt?</p>
                             </button>
                         </div>
                     )}
                 </div>
                 <div className="grid items-center justify-center py-5">
-                    <button href="#"className="text-[#2f80ed]">See more</button>
+                    <button className="text-[#2f80ed]">See more</button>
                 </div>
             </div>
         </div>
