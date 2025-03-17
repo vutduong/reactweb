@@ -29,7 +29,7 @@ export default function CategoryView() {
           return;
         }
 
-        const productResponse = await fetch(`https://reactweb-1.onrender.com/products`);
+        const productResponse = await fetch(`${config.API_URL}/products`);
         const productData = await productResponse.json();
         const productList = Array.isArray(productData) ? productData : productData.products || [];
 
