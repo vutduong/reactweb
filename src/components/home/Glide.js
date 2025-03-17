@@ -20,7 +20,7 @@ export default function GlideCarousel({perView = 2}) {
 
     glide.mount();
     return () => glide.destroy(); // Cleanup when unmounting
-  }, []);
+  }, [perView]);
 
   return (
     <div className="second-section mt-5">
