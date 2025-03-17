@@ -43,14 +43,14 @@ const RecentlyWatched = () => {
   };
 
   return (
-    <div className="bg-white px-6 py-5 rounded-lg shadow-md mt-6 border border-gray-300">
-      <div className="flex justify-between items-center">
-        <h2 className="text-xl font-bold mb-2 text-gray-800">Sản phẩm đã xem</h2>
-        <button onClick={clearAll} className="text-gray-500 rounded-lg">
-          Xóa lịch sử
-        </button>
-      </div>
-      {recentProducts.length > 0 ? (
+    recentProducts.length > 0 && (
+      <div className="bg-white px-6 py-5 rounded-lg shadow-md mt-6 border border-gray-300">
+        <div className="flex justify-between items-center">
+          <h2 className="text-xl font-bold mb-2 text-gray-800">Sản phẩm đã xem</h2>
+          <button onClick={clearAll} className="text-gray-500 rounded-lg">
+            Xóa lịch sử
+          </button>
+        </div>
         <div className="grid grid-cols-4 gap-2">
           {recentProducts.map((product) => (
             <div key={product.slug} className="relative flex bg-white p-2 rounded-lg border">
@@ -72,11 +72,10 @@ const RecentlyWatched = () => {
             </div>
           ))}
         </div>
-      ) : (
-        <p className="text-center text-gray-500">No recently viewed products.</p>
-      )}
-    </div>
+      </div>
+    )
   );
+  
 };
 
 export default RecentlyWatched;
