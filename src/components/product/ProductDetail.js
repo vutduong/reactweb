@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom"; 
+import { useParams, useNavigate  } from "react-router-dom"; 
 import ProductGlide from "./ProductGlide";
 import ProductTab from "../product/ProductTab";
 import config from "../../config";
 
 function ProductDetail() {
-    const { id, name } = useParams();
-    
+    const { slug } = useParams(); // Get slug from URL
+    const navigate = useNavigate(); // Hook to change the URL
     const [product, setProduct] = useState(null);
     const [images, setImages] = useState([]);
     const [thumbnailImages, setThumbnailImages] = useState([]);
@@ -17,52 +17,63 @@ function ProductDetail() {
 
     const addToCart = () => {
         const cartItem = {
-            id: product.id,
+            id: product.id, // Use ID internally
             quantity: quantity,
         };
 
-        // Check if the cart already exists in localStorage
-        const existingCart = JSON.parse(localStorage.getItem('cart')) || [];
+        const existingCart = JSON.parse(localStorage.getItem("cart")) || [];
         const updatedCart = existingCart.some(item => item.id === product.id)
             ? existingCart.map(item =>
                 item.id === product.id ? { ...item, quantity: item.quantity + quantity } : item
             )
             : [...existingCart, cartItem];
 
-        localStorage.setItem('cart', JSON.stringify(updatedCart));
-        // product.setCart(updatedCart);
+        localStorage.setItem("cart", JSON.stringify(updatedCart));
         alert(`${product.name} added to the cart!`);
-        // window.location.reload();
     };
 
     useEffect(() => {
         const fetchProductDetails = async () => {
             try {
-                const response = await fetch(`${config.API_URL}/products`);
-                const data = await response.json();
+                const response = await fetch(`${config.API_URL}/products`); // Fetch all products
+                if (!response.ok) throw new Error(`Failed to fetch products: ${response.status}`);
     
-                // Find product by name (assuming names are unique)
-                const foundProduct = data.find(p => p.name.toLowerCase().replace(/\s+/g, '-') === name);
+                const products = await response.json();
     
-                if (foundProduct) {
-                    setProduct(foundProduct);
-                    setImages(foundProduct.image || []);
-                    setThumbnailImages(foundProduct.thumbnail || []);
-                    setProductData(foundProduct.info || []);
-                } else {
-                    setProduct(null);
+                // Find product by slug (case insensitive match)
+                const product = products.find(p => p.slug.toLowerCase() === slug.toLowerCase());
+                if (!product) throw new Error(`Product "${slug}" not found`);
+    
+                setProduct(product);
+                setImages(product.image || []);
+                setThumbnailImages(product.thumbnail || []);
+                setProductData(product.info || []);
+    
+                console.log("Fetched product:", product);
+    
+                // Update URL to correct slug if needed
+                if (product.slug !== slug) {
+                    navigate(`/product/${product.slug}`, { replace: true });
                 }
+
+                // Save to recently viewed
+                let recentProducts = JSON.parse(localStorage.getItem("recentlyViewed")) || [];
+                recentProducts = recentProducts.filter(prodSlug => prodSlug !== slug);
+                recentProducts.unshift(product.slug);
+                if (recentProducts.length > 4) recentProducts.pop();
+                localStorage.setItem("recentlyViewed", JSON.stringify(recentProducts));
+    
             } catch (error) {
                 console.error("Error fetching product details:", error);
+                setError(error.message);
             } finally {
                 setLoading(false);
             }
         };
     
         fetchProductDetails();
-    }, [name]);
+    }, [slug, navigate]); // Depend on slug and navigate
     
-
     if (loading) return <p>Loading product details...</p>;
     if (!product) return <p>Product not found</p>;
 
