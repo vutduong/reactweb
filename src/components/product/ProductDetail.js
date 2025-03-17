@@ -5,8 +5,8 @@ import ProductTab from "../product/ProductTab";
 import config from "../../config";
 
 function ProductDetail() {
-    const { slug } = useParams(); // Get slug from URL
-    const navigate = useNavigate(); // Hook to change the URL
+    const { slug } = useParams();
+    const navigate = useNavigate();
     const [product, setProduct] = useState(null);
     const [images, setImages] = useState([]);
     const [thumbnailImages, setThumbnailImages] = useState([]);
@@ -17,7 +17,7 @@ function ProductDetail() {
 
     const addToCart = () => {
         const cartItem = {
-            id: product.id, // Use ID internally
+            id: product.id,
             quantity: quantity,
         };
 
@@ -35,12 +35,11 @@ function ProductDetail() {
     useEffect(() => {
         const fetchProductDetails = async () => {
             try {
-                const response = await fetch(`${config.API_URL}/products`); // Fetch all products
+                const response = await fetch(`${config.API_URL}/products`);
                 if (!response.ok) throw new Error(`Failed to fetch products: ${response.status}`);
     
                 const products = await response.json();
     
-                // Find product by slug (case insensitive match)
                 const product = products.find(p => p.slug.toLowerCase() === slug.toLowerCase());
                 if (!product) throw new Error(`Product "${slug}" not found`);
     
@@ -49,14 +48,12 @@ function ProductDetail() {
                 setThumbnailImages(product.thumbnail || []);
                 setProductData(product.info || []);
     
-                console.log("Fetched product:", product);
+                // console.log("Fetched product:", product);
     
-                // Update URL to correct slug if needed
                 if (product.slug !== slug) {
                     navigate(`/product/${product.slug}`, { replace: true });
                 }
 
-                // Save to recently viewed
                 let recentProducts = JSON.parse(localStorage.getItem("recentlyViewed")) || [];
                 recentProducts = recentProducts.filter(prodSlug => prodSlug !== slug);
                 recentProducts.unshift(product.slug);
@@ -72,7 +69,7 @@ function ProductDetail() {
         };
     
         fetchProductDetails();
-    }, [slug, navigate]); // Depend on slug and navigate
+    }, [slug, navigate]);
     
     if (loading) return <p>Loading product details...</p>;
     if (!product) return <p>Product not found</p>;
