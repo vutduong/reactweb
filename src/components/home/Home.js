@@ -6,6 +6,7 @@ import Tabs from './Tabs';
 import Discount from './Discount';
 import { Link } from "react-router-dom";
 import RecentlyWatched from "./RecentlyWatched";
+import config from "../../config";
 
 function Home() {
     const [products, setProducts] = useState([]);
@@ -17,7 +18,7 @@ function Home() {
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                const response = await axios.get("https://reactweb-1.onrender.com/categories");
+                const response = await axios.get(`${config.API_URL}/categories`);
                 // Limit to 5 categories
                 const limitedCategories = response.data.slice(0, 5);
                 setCategories(limitedCategories);
@@ -35,7 +36,7 @@ function Home() {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get("https://reactweb-1.onrender.com/products");
+                const response = await axios.get(`${config.API_URL}/products`);
                 setProducts(response.data);
             } catch (err) {
                 console.error("Error fetching products:", err);

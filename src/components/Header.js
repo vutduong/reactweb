@@ -2,13 +2,14 @@ import { Link } from 'react-router-dom';
 import '../App.css';
 import React, {useState, useEffect, useMemo } from "react";
 import HeaderCategory from './category/HeaderCategory';
+import config from '../config';
 
 function Header({ cart }) {
     const [categories, setCategories] = useState([]);
     const cartCount = useMemo(() => cart.reduce((total, item) => total + item.quantity, 0), [cart])
     
     useEffect(() => {
-        fetch("https://reactweb-1.onrender.com/categories")
+        fetch(`${config.API_URL}/categories`)
           .then((res) => res.json())
           .then((data) => setCategories(data))
           

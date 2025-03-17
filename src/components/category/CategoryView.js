@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import GlideCarousel from "../home/Glide";
 import ProductCard from "../product/ProductCard";
+import config from "../../config";
 
 export default function CategoryView() {
   const { categorySlug  } = useParams();
@@ -15,7 +16,7 @@ export default function CategoryView() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const categoryResponse = await fetch("https://reactweb-1.onrender.com/categories");
+        const categoryResponse = await fetch(`${config.API_URL}/categories`);
         const categoryData = await categoryResponse.json();
         const categoriesList = Array.isArray(categoryData) ? categoryData : categoryData.categories || [];
         setCategories(categoriesList);
@@ -28,7 +29,7 @@ export default function CategoryView() {
           return;
         }
 
-        const productResponse = await fetch("https://reactweb-1.onrender.com/products");
+        const productResponse = await fetch(`https://reactweb-1.onrender.com/products`);
         const productData = await productResponse.json();
         const productList = Array.isArray(productData) ? productData : productData.products || [];
 

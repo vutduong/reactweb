@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ProductCart from "../product/ProductCart";
 import { PaymentOption } from "./PaymentOption";
+import config from "../../config";
 
 function Cart() {
     const [activeTab, setActiveTab] = useState("tab1");
@@ -16,7 +17,7 @@ function Cart() {
             // Fetch product details for cart items using ID
             const fetchedProducts = await Promise.all(
                 cart.map(async (item) => {
-                    const response = await fetch(`https://reactweb-1.onrender.com/products/${item.id}`);
+                    const response = await fetch(`${config.API_URL}/products/${item.id}`);
                     const product = await response.json();
                     return { ...product, quantity: item.quantity };
                 })

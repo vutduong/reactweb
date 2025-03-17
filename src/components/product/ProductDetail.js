@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"; 
 import ProductGlide from "./ProductGlide";
 import ProductTab from "../product/ProductTab";
+import config from "../../config";
 
 function ProductDetail() {
     const { id } = useParams();
@@ -36,7 +37,7 @@ function ProductDetail() {
     useEffect(() => {
         const fetchProductDetails = async () => {
           try {
-            const response = await fetch(`https://reactweb-1.onrender.com/products/${id}`);
+            const response = await fetch(`${config.API_URL}/products/${id}`);
             const data = await response.json();
 
             setProduct(data);

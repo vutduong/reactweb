@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import config from "../../config";
 
 const RecentlyWatched = () => {
   const [recentProducts, setRecentProducts] = useState([]);
@@ -11,7 +12,7 @@ const RecentlyWatched = () => {
       try {
         const fetchedProducts = await Promise.all(
           storedIds.map(async (id) => {
-            const response = await fetch(`https://reactweb-1.onrender.com/products/${id}`);
+            const response = await fetch(`${config.API_URL}/products/${id}`);
             return response.json();
           })
         );
