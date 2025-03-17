@@ -34,7 +34,7 @@
             "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
             "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
         ],
-        "category": "3",
+        "category": "1",
         "price": "667",
         "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
         "content": "<p>1</p>\n",
@@ -44,10 +44,639 @@
         "id": "1"
       },
       {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/333363/samsung-galaxy-s25-green-thumbai-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "9"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/333363/samsung-galaxy-s25-green-thumbai-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "10"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/333363/samsung-galaxy-s25-green-thumbai-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "9"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/333363/samsung-galaxy-s25-green-thumbai-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "10"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/329959/vivo-v40-lite-8gb-256gb-thumb-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "9"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/333147/xiaomi-redmi-note-14-8gb-128gb-thumb-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "15"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/333363/samsung-galaxy-s25-green-thumbai-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "9"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/333363/samsung-galaxy-s25-green-thumbai-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "10"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/333363/samsung-galaxy-s25-green-thumbai-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "11"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/335175/samsung-galaxy-a36-5g-purple-thumbai-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "12"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/335177/samsung-galaxy-a56-5g-black-thumbai-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "13"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/329150/iphone-16-pro-max-sa-mac-thumb-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "14"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/333363/samsung-galaxy-s25-green-thumbai-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "5"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdn.tgdd.vn/Products/Images/42/334864/iphone-16e-den-thumb-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "8"
+      },
+      {
+        "name": "Android Cell Phone",
+        "image": [
+          "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/42/333280/realme-note-60x-xanh-thumb-638702210952165468-600x600.jpg"
+        ],
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "category": "1",
+        "price": "667",
+        "description": "Chip Apple M4 Pro là một bước tiến vượt bậc, đánh dấu sự đột phá trong thiết kế và sản xuất chip xử lý của Apple. Với công nghệ 3 nm và tích hợp hơn hàng tỷ bóng bán dẫn, Macbook Pro M4 Pro không chỉ tối ưu hóa tốc độ xử lý mà còn tiết kiệm năng lượng đáng kể, giúp thiết bị hoạt động mượt mà hơn trong thời gian dài. Bộ vi xử lý này bao gồm CPU 12 nhân và GPU 16 nhân, đủ sức đáp ứng các tác vụ phức tạp như xử lý đồ họa 3D, render video 4K hay xử lý các mô hình kỹ thuật lớn.",
+        "content": "<p>1</p>\n",
+        "created_at": "2024-11-08T07:42:21.966Z",
+        "slug": "5g-factory-unlocked-android-cell-phone-128gb-pro-grade-camera-30x-space-zoom-night-mode2",
+        "updated_at": "2024-11-12T08:26:39.709Z",
+        "id": "7"
+      },
+      {
         "name": "14″ FHD Ultrabook (400 nits) with 10th Gen Intel i7-10510U Processor up to 4.90 GHz,",
         "image": [
-          "https://cdn.tgdd.vn/Products/Images/522/315590/samsung-galaxy-a9-plus-bac-thumb-600x600.jpg",
-          "https://websitedemos.net/electronic-store-04/wp-content/uploads/sites/1055/2022/03/electronic-store-product-image-17.jpg"
+          "https://cdn.tgdd.vn/Products/Images/42/320836/oppo-a38-gold-thumb-600x600.jpeg"
         ],
         "category": "1",
         "color":"Màu Bạc",
@@ -89,7 +718,7 @@
       {
         "name": "Note 10 Pro 128GB 6GB RAM Factory Unlocked (GSM ONLY) International Model",
         "image": [
-          "https://static.vecteezy.com/system/resources/previews/011/047/526/original/smartphone-and-mobile-phone-free-png.png"
+          "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/44/329736/lenovo-v14-core-5-83hd0001vn-thumb-638754877371853493-600x600.jpg"
         ],
         "category": "2",
         "color":"Màu Bạc",
@@ -170,8 +799,51 @@
         "category": "1",
         "created_at": "2025-01-08T01:51:15.146Z",
         "updated_at": "2025-01-08T03:46:22.758Z"
+      },
+      {
+        "id": "acb1",
+        "name": "test8",
+        "price": "1",
+        "color":"Màu Bạc",
+        "thumbnail": ["https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/Slider/vi-vn-hp-240-g9-i5-6l1y2pa-3.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-1-1-180x125.jpg",
+        "https://cdn.tgdd.vn/Products/Images/44/285963/hp-240-g9-i5-6l1y2pa-fix-2-1-180x125.jpg"
+        ],
+        "info": [
+          {
+            "title": "Cấu hình & Bộ nhớ",
+            "items": [
+              { "label": "Hệ điều hành:", "value": "iOS 18", "link": true },
+              { "label": "Chip xử lý (CPU):", "value": "Apple A18 Pro 6 nhân" },
+              { "label": "Tốc độ CPU:", "value": "Hãng không công bố", "link": true }
+            ]
+          },
+          {
+            "title": "Camera & Màn hình",
+            "items": [
+              { "label": "Độ phân giải camera sau:", "value": "Chính 48 MP & Phụ 48 MP, 12 MP", "link": true }
+            ]
+          }
+        ],
+        "promotion": [
+            "Phiếu mua hàng 100.000đ áp dụng  mua balo, túi chống sốc",
+            "Nhập mã VNPAYTGDD1 giảm từ 40,000đ đến 150,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR",
+            "Thu cũ đổi mới: Giảm thêm đến 500,000Đ (Không áp dụng kèm ưu đãi thanh toán qua cổng, mua kèm)"          
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac massa eget urna tempor vehicula vel id nisi. Pellentesq",
+        "content": "<p>aaaaaaaaaaaaaaaaa</p>\n",
+        "image": [
+          "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/4547/334430/ban-phim-co-khong-day-akko-3087-rf-dragon-ball-z-goku-cream-yellow-100225-032847-233-600x600.jpg",
+          
+        ],
+        "category": "3",
+        "created_at": "2025-01-08T01:51:15.146Z",
+        "updated_at": "2025-01-08T03:46:22.758Z"
       }
     ],
+    
     "categories": [
     {
       "id": "1",
