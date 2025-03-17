@@ -5,7 +5,8 @@ import ProductTab from "../product/ProductTab";
 import config from "../../config";
 
 function ProductDetail() {
-    const { id } = useParams();
+    const { id, name } = useParams();
+    
     const [product, setProduct] = useState(null);
     const [images, setImages] = useState([]);
     const [thumbnailImages, setThumbnailImages] = useState([]);
@@ -36,31 +37,31 @@ function ProductDetail() {
 
     useEffect(() => {
         const fetchProductDetails = async () => {
-          try {
-            const response = await fetch(`${config.API_URL}/products/${id}`);
-            const data = await response.json();
-
-            setProduct(data);
-            setImages(data.image || []);
-            setThumbnailImages(data.thumbnail || []);
-            setProductData(data.info || []); // Ensure correct field name
-            console.log("Full Product Data:", data);
-
-
-            let recentProducts = JSON.parse(localStorage.getItem("recentlyViewed")) || [];
-            recentProducts = recentProducts.filter((prodId) => prodId !== id); // Remove duplicates
-            recentProducts.unshift(id); // Add new product at the beginning
-            if (recentProducts.length > 4) recentProducts.pop();
-            localStorage.setItem("recentlyViewed", JSON.stringify(recentProducts));
-          } catch (error) {
-            console.error("Error fetching product details:", error);
-          } finally {
-            setLoading(false);
-          }
+            try {
+                const response = await fetch(`${config.API_URL}/products`);
+                const data = await response.json();
+    
+                // Find product by name (assuming names are unique)
+                const foundProduct = data.find(p => p.name.toLowerCase().replace(/\s+/g, '-') === name);
+    
+                if (foundProduct) {
+                    setProduct(foundProduct);
+                    setImages(foundProduct.image || []);
+                    setThumbnailImages(foundProduct.thumbnail || []);
+                    setProductData(foundProduct.info || []);
+                } else {
+                    setProduct(null);
+                }
+            } catch (error) {
+                console.error("Error fetching product details:", error);
+            } finally {
+                setLoading(false);
+            }
         };
-
+    
         fetchProductDetails();
-    }, [id]);
+    }, [name]);
+    
 
     if (loading) return <p>Loading product details...</p>;
     if (!product) return <p>Product not found</p>;

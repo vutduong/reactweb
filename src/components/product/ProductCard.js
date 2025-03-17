@@ -5,7 +5,7 @@ export default function ProductCard({ product }) {
     if (!product) return <p>Loading...</p>;
 
     return (
-        <Link  className="product flex flex-col border px-3 py-4 min-h-[320px] h-full" to={`/product/${product.id}`}>
+        <Link  className="product flex flex-col border px-3 py-4 min-h-[320px] h-full" to={`/product/${product.name.toLowerCase().replace(/\s+/g, '-')}`}>
 
             <img 
                 className="w-40 mb-5 ease-in-out duration-300 transform hover:scale-110 mx-auto" 
