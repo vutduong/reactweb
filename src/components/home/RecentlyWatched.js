@@ -27,14 +27,13 @@ const RecentlyWatched = () => {
     fetchRecentlyViewedProducts();
   }, []);
 
-  // Remove a single product
   const removeProduct = (slug) => {
-    const updatedList = recentProducts.filter((product) => product.slug !== slug);
-    setRecentProducts(updatedList);
-
-    const updatedSlugs = updatedList.map((product) => product.slug);
+    const storedSlugs = JSON.parse(localStorage.getItem("recentlyViewed")) || [];
+    const updatedSlugs = storedSlugs.filter((s) => s !== slug);
     localStorage.setItem("recentlyViewed", JSON.stringify(updatedSlugs));
+    setRecentProducts((prevProducts) => prevProducts.filter((product) => product.slug !== slug));
   };
+  
 
   // Clear all recently watched products
   const clearAll = () => {

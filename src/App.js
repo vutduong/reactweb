@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import ProductDetail from './components/product/ProductDetail';
 import Cart from './components/cart/Cart';
 import CategoryView from './components/category/CategoryView';
-import Login from './admin/Login';
+import Login from './components/Login';
 
 function App() {
   const [cart, setCart] = useState(
