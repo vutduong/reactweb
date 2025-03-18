@@ -8,7 +8,7 @@ export default function CategoryView() {
   const { categorySlug  } = useParams();
   const decodedCategorySlug = decodeURIComponent(categorySlug); // Fix encoding issue
   const [products, setProducts] = useState([]);
-  const [setCategories] = useState([]);
+  const [categories,setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [loading, setLoading] = useState(true);
   const [visibleCount, setVisibleCount] = useState(20);
