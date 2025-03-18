@@ -5,29 +5,34 @@ import ProductTab from "../product/ProductTab";
 import config from "../../config";
 
 function ProductDetail() {
-    const { slug } = useParams();
+    const {id, slug } = useParams();
     const navigate = useNavigate();
     const [product, setProduct] = useState(null);
-    const [ setImages] = useState([]);
+    const [images, setImages] = useState([]);
     const [thumbnailImages, setThumbnailImages] = useState([]);
     const [productData, setProductData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [quantity] = useState(1);
-    const [ setError] = useState(null);
+    const [error, setError] = useState(null);
 
     const addToCart = () => {
+        if (!product) {
+            alert("Product details are not available.");
+            return;
+        }
+    
         const cartItem = {
             id: product.id,
             quantity: quantity,
         };
-
+    
         const existingCart = JSON.parse(localStorage.getItem("cart")) || [];
         const updatedCart = existingCart.some(item => item.id === product.id)
             ? existingCart.map(item =>
                 item.id === product.id ? { ...item, quantity: item.quantity + quantity } : item
             )
             : [...existingCart, cartItem];
-
+    
         localStorage.setItem("cart", JSON.stringify(updatedCart));
         alert(`${product.name} added to the cart!`);
     };
@@ -48,7 +53,7 @@ function ProductDetail() {
                 setThumbnailImages(product.thumbnail || []);
                 setProductData(product.info || []);
     
-                // console.log("Fetched product:", product);
+                console.log("Fetched product:", product);
     
                 if (product.slug !== slug) {
                     navigate(`/product/${product.slug}`, { replace: true });
@@ -99,7 +104,7 @@ function ProductDetail() {
             </nav>
 
             <div className="product-name">
-                <h1 className="text-xl font-bold">Điện thoại iPhone 16 Pro Max 256GB</h1>
+                <h1 className="text-xl font-bold">{product.name}</h1>
             </div>
             
             <div className="grid grid-cols-5 gap-4 my-5">
